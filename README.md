@@ -2,12 +2,12 @@
 Telco Customer Churn Prediction
 This project aims to predict customer churn for a telecommunications company using machine learning. By identifying customers at high risk of leaving, the company can take proactive measures to improve retention.
 
-📋 Project Overview
+#📋 Project Overview
 The project involves building a classification model to determine whether a customer will churn based on various demographic, account, and service-related features.
 
 The primary model used in this notebook is the Random Forest Classifier, optimized through hyperparameter tuning.
 
-📊 Dataset
+#📊 Dataset
 The dataset used is the WA_Fn-UseC_-Telco-Customer-Churn.csv, which contains 7,043 rows and 21 columns.
 
 Key Features:
