@@ -62,10 +62,4 @@ Confusion Matrix
 
 Classification Report (Precision, Recall, F1-Score)
 
-
-
-
 📈 Final ResultsThe model was optimized to prioritize Recall for the churn class (Class 1) to ensure the business doesn't "miss" customers who are about to leave.Performance Metrics:MetricClass 0 (Stayed)Class 1 (Churned)OverallPrecision0.920.56Accuracy: 78%Recall0.770.82Macro Avg: 79%F1-Score0.840.67Key Insights:Recall of 82%: The model successfully identifies 82% of all actual churners.Feature Importance: Tenure, Contract Type, and Monthly Charges were the most influential factors in predicting churn.
-
-4. Hyperparameter Tuning
-Utilized RandomizedSearchCV to find the optimal parameters for the Random Forest model.
